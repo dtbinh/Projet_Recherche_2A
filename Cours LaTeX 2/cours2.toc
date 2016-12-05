@@ -1,0 +1,27 @@
+\select@language {french}
+\contentsline {part}{I\hspace {1em}Titre de la partie 1}{1}
+\contentsline {section}{\numberline {1}Une section}{1}
+\contentsline {subsection}{\numberline {1.1}Une sous-section}{1}
+\contentsline {paragraph}{}{1}
+\contentsline {subparagraph}{}{1}
+\contentsline {subsubsection}{\numberline {1.1.1}Une sous-sous-section}{1}
+\contentsline {part}{II\hspace {1em}Titre de la partie 2}{1}
+\contentsline {section}{\numberline {2}Une section}{1}
+\contentsline {subsection}{\numberline {2.1}Une sous-section}{2}
+\contentsline {subsubsection}{\numberline {2.1.1}Une sous-sous-section}{2}
+\contentsline {part}{III\hspace {1em}Les environnements}{2}
+\contentsline {section}{\numberline {3}Les listes}{2}
+\contentsline {subsection}{\numberline {3.1}Les listes non tri\IeC {\'e}es}{2}
+\contentsline {subsection}{\numberline {3.2}Les listes tri\IeC {\'e}es}{2}
+\contentsline {subsection}{\numberline {3.3}Listes r\IeC {\'e}cursives}{2}
+\contentsline {section}{\numberline {4}Les \IeC {\'e}quations}{3}
+\contentsline {subsection}{\numberline {4.1}Equation rapide}{3}
+\contentsline {subsection}{\numberline {4.2}Equation d\IeC {\'e}tach\IeC {\'e}e}{3}
+\contentsline {section}{\numberline {5}What You See Is What You Get}{3}
+\contentsline {subsection}{\numberline {5.1}Environnement}{3}
+\contentsline {subsection}{\numberline {5.2}En ligne}{3}
+\contentsline {subsection}{\numberline {5.3}mode *}{3}
+\contentsline {part}{IV\hspace {1em}Emphase}{3}
+\contentsline {section}{\numberline {6}Emphase de Style}{3}
+\contentsline {section}{\numberline {7}Notes de bas de page}{4}
+\contentsline {part}{V\hspace {1em}Macro}{4}

@@ -1,0 +1,144 @@
+\documentclass[francais, 10pt]{article}
+
+%%% PACKAGE %%%
+\usepackage[francais]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+%%%%%%%%%%%%
+
+%%% PREAMBULE %%%
+%Ceci est le pr\'eambule du document.
+
+
+\title{Cours LaTeX sur les articles}
+\author{Un auteur}
+\date{18 novembre 2016}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\abstract{Dans ce cours, le lecteur apprendra facilement à se familiariser avec cet outil merveilleux qu'est \LaTeX}
+
+\part{Titre de la partie 1}
+	\section{Une section}
+		La section
+		\subsection{Une sous-section}
+			La sous-section
+				\paragraph{}
+					Ici mon paragraphe
+					\subparagraph{}
+						Là mon sous paragraphe
+				\subsubsection{Une sous-sous-section}
+				La sous-sous-section
+
+\part{Titre de la partie 2}
+	\section{Une section}
+		La section
+		\subsection{Une sous-section}
+			La sous-section
+			\subsubsection{Une sous-sous-section}
+				La sous-sous-section
+	\section*{Section non numérotée}
+
+\part{Les environnements}
+	\section{Les listes}
+		\subsection{Les listes non triées}
+			\begin{itemize}
+				\item \LaTeX permet de faire des listes
+					\item Les listes sont des suites de points
+				\item la macro \verb|\item| se place en début de chacun des points
+			\end{itemize}
+ 		\subsection{Les listes triées}
+			\begin{enumerate}
+				\item \LaTeX permet de faire des listes
+					\item Les listes sont des suites de points
+				\item la macro \verb|\item| se place en début de chacun des points
+			\end{enumerate}
+		\subsection{Listes récursives}
+			\begin{enumerate}
+				\item \LaTeX permet de faire des listes
+				\begin{itemize}
+					\item \LaTeX permet de faire des listes
+					\item Les listes sont des suites de points
+					\item la macro \verb|\item| se place en début de chacun des points
+				\end{itemize}
+				\item Les listes sont des suites de points
+				\begin{enumerate}
+					\item \LaTeX permet de faire des listes
+					\item Les listes sont des suites de points
+					\begin{enumerate}
+						\item \LaTeX permet de faire des listes
+						\item Les listes sont des suites de points
+						\item la macro \verb|\item| se place en début de chacun des points
+					\end{enumerate}
+					\item la macro \verb|\item| se place en début de chacun des points
+				\end{enumerate}
+				\item la macro \verb|\item| se place en début de chacun des points
+			\end{enumerate}
+			
+			\begin{itemize}
+				\item \LaTeX permet de faire des listes
+				\item Les listes sont des suites de points
+				\begin{itemize}
+					\item \LaTeX permet de faire des listes
+					\item Les listes sont des suites de points
+					\begin{itemize}
+						\item \LaTeX permet de faire des listes
+						\item Les listes sont des suites de points
+						\item la macro \verb|\item| se place en début de chacun des points
+					\end{itemize}
+					\item la macro \verb|\item| se place en début de chacun des points
+				\end{itemize}
+				\item la macro \verb|\item| se place en début de chacun des points
+			\end{itemize}
+
+	\section{Les équations}
+		\subsection{Equation rapide}
+			\begin{math} \alpha = \beta^2 + \gamma_1 + \delta_{1 + 2 + 3 + 4 + 5} \end{math}
+			\\
+			\verb|\begin{math}| et \verb|\end{math}| peuvent être remplacés par \$ ... \$
+		\subsection{Equation détachée}
+			\begin{displaymath} \sum_{ \alpha = \beta^2 + \gamma_1 }^{  \alpha = \infty } {\alpha^\beta + 1}\end{displaymath}
+			\verb|\begin{displaymath}| et \verb|\end{displaymath}| peuvent être remplacés par \$\$ ... \$\$
+	
+	\section{What You See Is What You Get}
+		\subsection{Environnement}
+		\begin{verbatim}
+			int carre(int a){
+			   return (a * a);
+			}
+		\end{verbatim}
+	
+		\subsection{En ligne}
+			\verb+int carre+
+	
+		\subsection{mode *}
+		\begin{verbatim*}
+			enfin !!!        du bon vieux what you see is what you get !!!
+		\end{verbatim*}
+		
+\part{Emphase}
+
+	\section{Emphase de Style}
+		On peut mettre en valeur un \emph{mot}
+		\\
+		Le texte peut être mis $\textbf{en gras}$ , $\textit{en italique}$, \dots
+		\\
+		Les tailles de texte vont de {\Huge Huge} à {\tiny tiny}
+	\section{Notes de bas de page}
+		Et même des notes de bas de page \footnote{Illustration}
+
+\part{Macro}
+	\newcommand{\Cact}{
+		\mathcal{C}_{act}
+	}
+	
+	$\Cact$
+	
+
+
+\end{document}
